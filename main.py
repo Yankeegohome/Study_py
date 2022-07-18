@@ -2,6 +2,7 @@ class Person:
     def __init__(self):
         self.name = "bob"
 
+
 class Square:
     
     square_list = []
@@ -25,6 +26,7 @@ def tr_or_fl(x, y):
 square1 = Square(4)
 square2 = Square(6)
 square3 = square2
+square4 = Square(10).find_p()
 
 print(tr_or_fl(square2, square3))
 
