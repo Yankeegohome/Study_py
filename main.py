@@ -28,6 +28,7 @@ square2 = Square(6)
 square3 = square2
 square4 = Square(10).find_p()
 square5 = Square(9).find_p()
+square6 = Square(18).find_p()
 
 print(tr_or_fl(square2, square3))
 
